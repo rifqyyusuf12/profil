@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Profil</title>
 </head>
 <body> 
@@ -44,64 +45,153 @@
           <h5 class="foto"><img class="rounded-circle border border-5 border-light mb-4"src="gambar/foto.jpeg" alt="profil" width="140px"></h5>
           <h5 class="card-title mt-5">Muhammad Rifqy Yusuf</h5>
           <p class="card-text"><small class="text-muted">@rifqyyusuf</small></p>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> DKI Jakarta, Indonesia</p>
         </div>
       </div>
 
 
       <!-- galeri -->
+      <div class="row">
+        <div class="col-12 text-center my-3">
+          <h2>Galeri</h2>
+        </div>
+      </div>
         <div class="row" >
           <div class="col-1"></div>
             <div class="col-md-10 text-center">
                 <div class="box">
                     <div class="row text-center my-3">
-                        <div class="col-md-4 mb-3">
-                            <img src="gambar/1.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="col-md-4 mb-3" >
+                          <div class="content">
+                            <img src="gambar/1.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                            <div class="text d-flex justify-content-around">
+                              <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                              <p class="tLike" id="tLike" ><i class="bi bi-heart-fill" ></i></p>
+                              <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                            </div>
+                          </div>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <img src="gambar/2.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                          <div class="content">
+                            <img src="gambar/2.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                            <div class="text d-flex justify-content-around">
+                              <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                              <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                              <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                            </div>
+                          </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="gambar/3.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                          <div class="content">
+                            <img src="gambar/3.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                            <div class="text d-flex justify-content-around">
+                              <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                              <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                              <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
                 <div class="box">
                   <div class="row text-center my-3">
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/4.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/4.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/11.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/10.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4">
-                          <img src="gambar/6.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/6.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                   </div>
               </div>
               <div class="box" >
                   <div class="row text-center my-3">
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/7.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/7.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/8.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/8.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4">
-                          <img src="gambar/9.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/9.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                   </div>
               </div>
               <div class="box">
                   <div class="row text-center my-3">
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/9.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/10.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4 mb-3">
-                          <img src="gambar/10.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/11.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike"><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                       <div class="col-md-4">
-                          <img src="gambar/11.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        <div class="content">
+                          <img src="gambar/12.jpg" alt="gambar1" width="350px" id="foto1" class="img-thumbnail shadow" onclick="openFullImg(this.src)">
+                          <div class="text d-flex justify-content-around">
+                            <p class="date"><i class="bi bi-calendar2"></i> Feb 15, 2021</p>
+                            <p class="tLike" id="tLike" ><i class="bi bi-heart-fill" ></i></p>
+                            <p class="person"><i class="bi bi-person-fill"></i>@rifqyyusuf</p>
+                          </div>
+                        </div>
                       </div>
                   </div>
               </div>
