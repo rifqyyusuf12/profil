@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Profil</title>
+</head>
+<body> 
+    <!-- tampilan image full -->
+    <div class="full-img" id="fullImgBox">
+        <img src="gambar/1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <!-- navbar -->
+    <nav class="row navbar navbar-expand-lg navbar-light bg-light shadow p-1 bg-body rounded fixed-top nav justify-content-end">
+        <div class="col-10 container-fluid d-flex">
+          <a class="col-1 navbar-brand text-end" href="#"><img src="gambar/logo.png" alt="" width="40" height="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="col-8 d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="collapse navbar-collapse col-1 text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galeri</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- profil -->
+      <div class="card mb-3">
+        <img src="gambar/5.jpg" class="card-img-top" alt="header" width="auto" height="500px">
+        <div class="card-body position-relative">
+          <h5 class="foto"><img class="rounded-circle border border-5 border-light mb-4"src="gambar/foto.jpeg" alt="profil" width="140px"></h5>
+          <h5 class="card-title mt-5">Muhammad Rifqy Yusuf</h5>
+          <p class="card-text"><small class="text-muted">@rifqyyusuf</small></p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+
+
+      <!-- galeri -->
+        <div class="row" >
+          <div class="col-1"></div>
+            <div class="col-md-10 text-center">
+                <div class="box">
+                    <div class="row text-center my-3">
+                        <div class="col-md-4 mb-3">
+                            <img src="gambar/1.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <img src="gambar/2.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="gambar/3.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                  <div class="row text-center my-3">
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/4.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/11.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4">
+                          <img src="gambar/6.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                  </div>
+              </div>
+              <div class="box" >
+                  <div class="row text-center my-3">
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/7.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/8.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4">
+                          <img src="gambar/9.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                  </div>
+              </div>
+              <div class="box">
+                  <div class="row text-center my-3">
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/9.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4 mb-3">
+                          <img src="gambar/10.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                      <div class="col-md-4">
+                          <img src="gambar/11.jpg" alt="gambar1" width="350px" class="foto1" onclick="openFullImg(this.src)">
+                      </div>
+                  </div>
+              </div>
+              <div class="row mb-5">
+                  <div class="col-md-12">
+                      <button type="button" class="btn btn-secondary btn" id="load-more" >Load More</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- pemanggilan javascript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

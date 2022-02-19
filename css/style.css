@@ -1,0 +1,43 @@
+.foto {
+    position: absolute;
+    bottom: 100px;
+}
+
+.foto1 {
+    cursor: pointer;
+}
+
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 30px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.box {
+    display: none;
+}
+
+.box:nth-child(1){
+    display: inline-block;
+}
