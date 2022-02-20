@@ -23,9 +23,16 @@ loadMoreBtn.onclick = () =>{
   currentItem += 1;
 }
 
+
+
 //tbl like
 const like = document.getElementById("tLike")
-like.onclick = function() {
+  tLike.src2 = color;
+
+function Like(color){
     if(this.onclick=true)
     return like.style.color = 'red'
 }
+
+
+
