@@ -26,11 +26,24 @@ loadMoreBtn.onclick = () =>{
 
 
 //tbl like
-const like = document.getElementById("tLike")
-function Like(color){
-    if(this.onclick=true)
-    return like.style.color = 'red'
+function onLove(on) {
+  on.target.style.color = "red"
 }
+
+function offLove(off) {
+  off.target.style.color = "black"
+}
+
+let like = document.getElementById("tLike")
+
+like.addEventListener("click", onLove)
+if (onLove == true) {
+  like.addEventListener("click", onLove)
+}
+else if (onLove == true) {
+  like.addEventListener("click", offLove)
+}
+// udah coba ganti getelementsbyclass ga kepanggil addeventlistener ga bisa baca  function, dan  belum bisa berfungsi on off
 
 //tbl follow
 let follow = document.getElementById("tFollow")
@@ -45,7 +58,6 @@ function onFollow(){
 
 let edit = document.getElementById("tEdit")
 let fullEdit = document.getElementById("fullEditBox")
-console.log(fullEdit)
 function onEdit() {
   if(onclick=true)
   return fullEdit.style.display = "block"
