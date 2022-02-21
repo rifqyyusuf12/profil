@@ -27,12 +27,27 @@ loadMoreBtn.onclick = () =>{
 
 //tbl like
 const like = document.getElementById("tLike")
-  tLike.src2 = color;
-
 function Like(color){
     if(this.onclick=true)
     return like.style.color = 'red'
 }
 
+//tbl follow
+let follow = document.getElementById("tFollow")
+function onFollow(){
+  if(onclick=true)
+  return follow.textContent = 'unfollow';
+   alert(`Anda yakin mengikuti ?`)
 
+}
 
+//tbl edit
+
+let edit = document.getElementById("tEdit")
+let fullEdit = document.getElementById("fullEditBox")
+console.log(fullEdit)
+function onEdit() {
+  if(onclick=true)
+  return fullEdit.style.display = "block"
+
+}
