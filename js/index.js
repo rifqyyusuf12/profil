@@ -36,7 +36,7 @@ function Like(color){
 let follow = document.getElementById("tFollow")
 function onFollow(){
   if(onclick=true)
-  return follow.textContent = 'unfollow';
+  return follow.textContent = 'unfollow',
    alert(`Anda yakin mengikuti ?`)
 
 }
