@@ -37,12 +37,8 @@ function offLove(off) {
 let like = document.getElementById("tLike")
 
 like.addEventListener("click", onLove)
-if (onLove == true) {
-  like.addEventListener("click", onLove)
-}
-else if (onLove == true) {
-  like.addEventListener("click", offLove)
-}
+// like.addEventListener("click", offLove)
+
 // udah coba ganti getelementsbyclass ga kepanggil addeventlistener ga bisa baca  function, dan  belum bisa berfungsi on off
 
 //tbl follow
